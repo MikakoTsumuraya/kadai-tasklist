@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'microposts/create'
+  get 'microposts/destroy'
   get 'users/new'
   root to: 'tasks#index'
 

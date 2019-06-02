@@ -7,5 +7,5 @@ class User < ApplicationRecord
   has_secure_password
   
   belongs_to :tasks
-  
+  has_many :tasks
 end
